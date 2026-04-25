@@ -9,7 +9,7 @@ public class CustomerFormValidation {
 
     static Scanner sc = new Scanner(System.in);
 
-    // Valida que el id sea un número entero
+    // Valida que el id sea un número
     public static void validateId(Customer customer) {
         boolean validInput = false;
         while (!validInput) {
